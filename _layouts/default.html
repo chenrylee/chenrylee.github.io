@@ -18,6 +18,7 @@
           <tr>
             <td>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+            </td>
         
         <!--
         {% if site.logo %}
@@ -25,11 +26,15 @@
         {% endif %}
          -->
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
+        <td>
+            {{ site.description | default: site.github.project_tagline }}
             </td>
+            <tr>
             <td>
               <a href="/">Home</a>
             </td>
+              <td>About
+              </td>
           </tr>
         </table>
               
