@@ -21,9 +21,9 @@ Test-Function
 'Script done!'
 ```
 
-If you change the action, you will get different output results:
-- Break:
+If you change the action, you will get different output results:  
 
+- Break:
 > Starting  
 fishing fish #1  
 fishing fish #2  
