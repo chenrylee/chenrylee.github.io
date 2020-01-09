@@ -5,3 +5,4 @@
 # Contents
 ---
 1.  [Difference Between break, continue, exit and return in PowerShell](/Difference-Between-break-continue-exit-return-PowerShell)
+2.  [Play SQLite Database with PowerShell](/play-sqlite-database-with-powershell)
