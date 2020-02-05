@@ -25,7 +25,7 @@ Usage:
           -p= - AppContainer or Package Family Security Identifier (SID).
           -?  - Displays this help message for the LoopbackExempt module.
 ```
-1. **Get the package family name**. We do it by a PowerShell cmdlet:
+ 1. **Get the package family name**. We do it by a PowerShell cmdlet:
 ```powershell
 Get-AppxPackage -Name *Unigram*
 ```
@@ -56,15 +56,17 @@ Status            : Ok
 Now you can find the `PackageFamilyName` is `38833FF26BA1D.UnigramPreview_g9c9v27vpyspw`.
   
   
-2. **Add to loopback exemption**. 
+ 2. **Add to loopback exemption**.  
+ 
 ```bat
 CheckNetIsolation loopbackexempt -a -n="38833FF26BA1D.UnigramPreview_g9c9v27vpyspw"
 OK
 ```
   
   
-3. **Confirm the result**.
-```bat
+ 3. **Confirm the result**.  
+ 
+```
 CheckNetIsolation loopbackexempt -s
 
 List Loopback Exempted AppContainers
