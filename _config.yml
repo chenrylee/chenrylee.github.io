@@ -4,3 +4,5 @@ description: Leading to the future IT operations.
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
+github:
+  is_project_page: false
