@@ -13,5 +13,5 @@ Thank God! There's a solution.
    pwpolicy -clearaccountpolicies
    ```
 3. You will be asked to enter your password for your admin Profile.  
-   :warning: Terminal WILL NOT show the password as you type it.
+   ⚠ Terminal WILL NOT show the password as you type it.
 4. You're all done! Now go to System Preferences -> Users & Groups to reset your password.
