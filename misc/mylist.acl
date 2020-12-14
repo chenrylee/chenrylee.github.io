@@ -1,0 +1,18 @@
+# updated on 2020-04-18 01:30:05$
+[proxy_all]
+
+[bypass_list]
+#bypass all IPv6 addresses
+::/0
+
+#bypass all intranet IPv4 addresses
+127.0.0.1
+10.0.0.0/8
+172.16.0.0/12
+192.168.0.0/16
+
+#bypass government sites
+(^|\.)gov\.cn$
+
+#bypass specific sites
+(^|\.)12306\.cn$
