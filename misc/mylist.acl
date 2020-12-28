@@ -16,3 +16,4 @@
 
 #bypass specific sites
 (^|\.)12306\.cn$
+(^|\.)rt\.chenry\.vip$
