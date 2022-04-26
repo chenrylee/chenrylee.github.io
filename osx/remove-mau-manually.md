@@ -12,11 +12,11 @@ Sometimes, Microsoft AutoUpdate is really annoying, and you might want to kick i
    PS > sudo rm -rf '/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app'
    ```
    You may be prompted for password.
-3. Deleted related files from System-Library
+3. Deleted related files from System-Library  
    ```powershell
    PS > sudo rm -rf '/Library/LaunchAgents/com.microsoft.update.agent.plist'
    PS > sudo rm -rf '/Library/PrivilegedHelperTools/com.microsoft.autoupdate.helper'
-4. Delete related files from User-Library
+4. Delete related files from User-Library  
    ```powershell
    PS > rm -rf '~/Library/Preferences/com.microsoft.autoupdate.fba.plist'
    PS > rm -rf '~/Library/Preferences/com.microsoft.autoupdate2.plist'
