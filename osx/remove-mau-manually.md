@@ -16,10 +16,12 @@ Sometimes, Microsoft AutoUpdate is really annoying, and you might want to kick i
    ```powershell
    PS > sudo rm -rf '/Library/LaunchAgents/com.microsoft.update.agent.plist'
    PS > sudo rm -rf '/Library/PrivilegedHelperTools/com.microsoft.autoupdate.helper'
+   ```
 4. Delete related files from User-Library  
    ```powershell
    PS > rm -rf '~/Library/Preferences/com.microsoft.autoupdate.fba.plist'
    PS > rm -rf '~/Library/Preferences/com.microsoft.autoupdate2.plist'
    PS > rm -rf '~/Library/Caches/com.microsoft.autoupdate.fba/'
    PS > rm -rf '~/Library/Caches/com.microsoft.autoupdate2/'
+   ```
 5. A reboot is recommended.
