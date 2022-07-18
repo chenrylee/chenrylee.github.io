@@ -12,3 +12,4 @@
 6.  [How I Connect To My Home Devices](/misc/how-i-connect-to-my-home-devices)
 7.  [Use My Old Password in Big Sur](/osx/use-weak-password-in-big-sur.md)
 8.  [Uninstall Microsoft AutoUpdate(MAU) on Mac](/osx/remove-mau-manually.md)
+9.  [Remove Builtin ABC or U.S. Input Source](/osx/remove-abc.md)
